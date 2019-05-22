@@ -92,6 +92,7 @@ class TodoListViewController: UITableViewController {
 
                         currentCategory.items.append(newItem)
                     }
+
                 }catch{
                     print("Error saving new items, \(error)")
                     
